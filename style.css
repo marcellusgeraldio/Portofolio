@@ -1,0 +1,71 @@
+.introduction {
+  padding-top: 8rem;
+  background-color: #e2c33a;
+  color: black;
+}
+
+.nav-item {
+  transition: transform 0.2s;
+  margin: 0 0.3rem;
+}
+
+.nav-item:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.navbar {
+  background-color: #343434;
+}
+
+* {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-nav {
+  font-size: larger;
+}
+
+.navitem #sertifikat {
+  background-color: #e2c33a;
+}
+
+section {
+  padding-top: 7rem;
+}
+
+#sertifikat {
+  background-color: #e2c33a;
+}
+
+footer {
+  padding: 0.3rem;
+  background-color: #343434;
+  text-align: center;
+  color: white;
+}
+
+.footer-icons {
+  margin-bottom: 1rem;
+}
+
+.footer-icons a {
+  margin: 0 0.5rem;
+}
+
+.footer-icons svg {
+  fill: whitesmoke;
+}
+
+.footer-icons svg {
+  transition: transform 0.2s; /* Animation */
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.footer-icons svg:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
